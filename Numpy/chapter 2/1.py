@@ -12,7 +12,10 @@ array_c=np.array([5,7,9,6,4])
 print(array_c.ndim)
 
 #d type it meanes the data types of element
-array_d=np.array([[7,8,9,4],[1,2,3,4,5]])
+array_d=np.array([7,8.5,9,4])
 print(array_d.dtype)
 
 #convert data type
+convert_data_type=np.array([1.2,4.6,5.3,7.1])
+int_data=convert_data_type.astype(int)
+print(int_data)
