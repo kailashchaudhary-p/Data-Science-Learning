@@ -9,4 +9,4 @@ print(array[0])#first element
 print(array[1])#second element
 print(array[2])#third element
 print(array[3])#forth element
-print(array[4])
+print(array[-1])
