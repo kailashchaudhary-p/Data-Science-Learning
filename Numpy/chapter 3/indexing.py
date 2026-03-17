@@ -10,3 +10,10 @@ print(array[1])#second element
 print(array[2])#third element
 print(array[3])#forth element
 print(array[-1])
+
+
+#This is the fancy indexing
+print(array[[1,2,5]])
+
+#boolean masking
+print(array[array>4])#this is faster then loops 
