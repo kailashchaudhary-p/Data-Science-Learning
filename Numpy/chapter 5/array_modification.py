@@ -11,4 +11,15 @@ print(b)
 c=np.append(a,[40,5])
 print(c)#it is add the elment in the last
 
-#
+#concatenation of arrays 
+a2=np.array([10,20,30])
+print(np.concatenate((a,a2)))
+
+#removing array - when we delete the element from the array 
+print(np.delete(a,5))
+
+#stacking array - when we have multiple array and we will combine the all of array in onec is known as stacking array
+x=np.array([80,40,60,20])
+y=np.array([25,55,45,75])
+z=np.array([22,11,33,77])
+print(vstack((x,y,z)))
