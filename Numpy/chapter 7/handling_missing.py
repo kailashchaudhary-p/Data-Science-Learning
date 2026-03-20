@@ -14,5 +14,14 @@ print(f"Missing value detected {np.isnan(a1)}")
 
 #This is the seccond built in function in handling missing
 a2=np.array([44,424,78,44,np.nan,np.nan])
-b=np.nan_to_num(a2,num=7,45 )
+b=np.nan_to_num(a2,nan=7 )
 print(b)
+
+#this is the third built in function in handling missing
+import numpy as np
+
+a3 = np.array([10, 20, np.inf, -np.inf, 50])
+
+b1 = np.nan_to_num(a3, posinf=999, neginf=-999)
+
+print(b1)
