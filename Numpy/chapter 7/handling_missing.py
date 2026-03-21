@@ -25,3 +25,8 @@ a3 = np.array([10, 20, np.inf, -np.inf, 50])
 b1 = np.nan_to_num(a3, posinf=999, neginf=-999)
 
 print(b1)
+
+
+#
+a4=np.array([[15,54,1,np.inf],[454,44,np.inf]])
+print(a4)
