@@ -8,7 +8,7 @@ class AddProduct:
 
         self.root = tk.Toplevel(parent)
         self.root.title('Add Product')
-        self.root.geometry('420x400')
+        self.root.geometry('780x520')
         self.root.resizable(False, False)
         self.root.transient(parent)
         self.root.grab_set()

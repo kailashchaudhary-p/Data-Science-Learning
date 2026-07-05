@@ -6,7 +6,7 @@ class Login:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title('Inventory Management System')
-        self.root.geometry('620x420')
+        self.root.geometry('780x520')
         self.root.resizable(False, False)
         self.root.configure(bg='white')
 

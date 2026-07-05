@@ -6,7 +6,7 @@ class UpdateProduct:
         self.db = db
         self.root = tk.Toplevel(parent)
         self.root.title('Update Product')
-        self.root.geometry('440x520')
+        self.root.geometry('780x520')
         self.root.resizable(False, False)
         self.root.transient(parent)
         self.root.grab_set()
